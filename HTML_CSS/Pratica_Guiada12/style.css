@@ -1,0 +1,30 @@
+*{
+    font-family: 'Maven Pro', sans-serif ;
+    margin: 0; 
+    padding: 0; /**/
+    
+}
+
+header{
+    background-color: aqua;
+    display: flex;
+    /*justify-content: ;*/
+    padding: 8px;
+    margin-bottom: 12px;
+    
+}
+
+nav{
+    background-color: orange;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+nav ul li {
+    list-style-type: none ; /* traço do li */
+    margin-left: 16px;
+}

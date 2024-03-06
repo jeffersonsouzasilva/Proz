@@ -1,0 +1,111 @@
+* {
+  font-family: 'Maven Pro', sans-serif;
+  margin: 0;
+  padding: 0;
+
+}
+nav ul li {
+  padding: 12px;
+  list-style-type: none;
+}
+
+ul{
+  display: flex;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  font-size:medium;
+  color: white;
+}
+
+header{
+  display: flex;
+  height: 100%;
+  padding: 8px;
+  justify-content: space-between;
+  background-color:rgb(43, 43, 43);
+}
+
+
+main {
+  background-color: #474747;
+  padding:15px;
+  height: 70.5vh;
+}
+
+img{
+  margin-left: 0.8%;
+}
+
+h1{
+  margin-left: 37%;
+  font-size:55px;
+}
+
+h2{
+  margin-left: 37%;
+  font-size: 18px;
+  margin-bottom: 13px;
+}
+
+
+section{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+section div{
+  background-image: url("./img/bg_laranja.jpg");
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+  padding: 25px;
+  border-radius: 13px;
+}
+
+section img{
+  width: 220px;
+  height: 120px;
+}
+
+h1{
+  color: white;
+}
+
+h2{
+  color: white;
+}
+
+h3{
+  color: white;
+  font-size:large;
+  margin-bottom:12px;
+}
+
+p {
+  color: white;
+  margin-top: 12px;
+  font-size:smaller;
+}
+
+
+footer{
+
+  height: 100%;
+  padding: 8px;
+  justify-content: space-between;
+  background-color:rgb(43, 43, 43);
+}
+
+.paginas ul li {
+  padding: 12px;
+  list-style-type: none;
+}
+
+.paginas{
+  
+}

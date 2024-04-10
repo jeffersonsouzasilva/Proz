@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Conexão HTML com JS</title>
+</head>
+
+<body>
+  <header>
+    <img src="https://essa.prozeducacao.com.br/img/logo-proz.png" alt="logo-proz" style="width: 80px" id="logo">
+    <nav>
+      <ul>
+        <li class="elementos_nav">
+          <a href="">Home</a>
+        </li>
+        <li class="elementos_nav">
+          <a href="">Produtos</a>
+        </li>
+        <li class="elementos_nav">
+          <a href="">Blog</a>
+        </li>
+        <li class="elementos_nav">
+          <a href="">Contato</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <aside>
+    <h3>Segue nossas redes!</h2>
+      <ul class="lista_redes">
+        <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+        <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+        <li><a href="https://www.linkedin.com" target="_blank">Linkedin</a></li>
+      </ul>
+  </aside>
+  <main>
+    <h1>Blog do site</h1>
+    <section id="posts">
+      <h2>Posts mais comentados</h2>
+      <article class="post" id="post01">
+        <h3>Gostei muito do curso:</h3>
+        <p class="post-autor"><strong>Autor:</strong> João Pereira </p>
+        <p class="post-data"><strong>Data:</strong> 04/07/2022</p>
+        <p class="post-texto">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quos odio dolorum nobis esse, nostrum
+          adipisci, fugit tempore, consectetur consequuntur ullam dolores amet velit qui quod. <a href="">Accusamus ab
+            adipisci ut</a>, quo minima totam quas doloribus dolores alias at vitae, deserunt sapiente nihil quasi sequi
+          repellendus dolorem perferendis iste obcaecati.
+        </p>
+      </article>
+      <article class="post" id="post02">
+        <h3>Superou minhas expectativas:</h3>
+        <p class="post-autor"><strong>Autor:</strong> Maria Lima </p>
+        <p class="post-data"><strong>Data:</strong> 04/07/2022</p>
+        <p class="post-texto">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis debitis iure ut impedit
+          <strong>eligendi</strong> et omnis laboriosam, beatae aliquam ipsa? Maiores ratione corrupti expedita
+          accusantium ut optio dolores quibusdam numquam.
+        </p>
+      </article>
+    </section>
+    <section id="formulario">
+      <h2>Deixe seu comentário:</h2>
+      <form action="">
+        <div>
+          <label for="nome">Nome:</label>
+          <input id="nome" name="nome" type="text">
+          <label for="data">Data:</label>
+          <input id="data" name="data" type="date">
+        </div>
+        <label for="mensagem">Mensagem:</label>
+        <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <span>Copyright da página (c)</span>
+    <ul>
+      <li><a href="">Home</a></li>
+      <li><a href="">Produtos</a></li>
+      <li><a href="">Blog</a></li>
+      <li><a href="">Contato</a></li>
+    </ul>
+    <ul class="lista_redes">
+      <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+      <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+      <li><a href="https://www.linkedin.com" target="_blank">Linkedin</a></li>
+    </ul>
+  </footer>
+</body>
+
+</html>

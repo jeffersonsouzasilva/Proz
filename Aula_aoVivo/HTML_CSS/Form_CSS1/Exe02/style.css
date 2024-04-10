@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    margin-top: 5px;
+    color: brown;
+}
+
+div{
+    background-color: grey;
+    padding: 35px;
+    margin-top: 50px;
+}
+
+a{
+    text-decoration: none;
+    text-transform: none;
+    color: black;
+}
+
+.caixa{
+    border: solid 4px red;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+#ultima-caixa{
+    background-color: aqua ;
+    font-style: oblique;
+    font-size: x-large;
+}
+

@@ -1,0 +1,2 @@
+O JS é usado para interação com usuário neste caso o cadastro de um novo usuário, sendo armazenar as informações no banco de dados e notificar se o cadastro foi realizado.
+Na lógica podemos adicionar regras para campos vazios ou por exemplo informações repetitivas que ja constam no registro do banco de dados, até mesmo adicionar uma API para melhorar software e facilitar a comunicação entre front e back-end.

@@ -1,0 +1,9 @@
+Var
+contador
+ 
+Inicio
+   contador <- 1
+   enquanto (contador <= 5) faca
+   escreva ("Os Lutadores: ",contador)
+   contador <- contador + 1
+   fimenquanto

@@ -1,0 +1,17 @@
+Var
+area:caractere
+
+Inicio
+  escreva("Escolha uma opção!")
+  escreva("Se são clientes fumantes ou com animais de estimação, digite 1")
+  escreva("Grupos de 5 ou mais, digite 2")
+  escreva("Qualquer outro grupo de pessoas, digite 3")
+
+escolha area
+  caso "1"
+    escreva("Área externa")
+  caso "2"
+    escreva("1º andar")
+  caso "3"
+    escreva("Nível superior")
+fimescolha

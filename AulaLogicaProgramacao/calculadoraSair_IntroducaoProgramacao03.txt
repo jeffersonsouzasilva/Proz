@@ -1,0 +1,69 @@
+"""
+Instruções do projeto
+Faça uma função calculadora que os números e as operações serão feitas pelo usuário. O código deve ficar rodando infinitamente até que o usuário escolha a opção de sair. No início, o programa mostrará a seguinte lista de operações:
+
+1: Soma
+2: Subtração
+3: Multiplicação
+4: Divisão
+0: Sair
+
+Digite o número para a operação correspondente e caso o usuário introduza qualquer outro, o sistema deve mostrar a mensagem “Essa opção não existe” e voltar ao menu de opções.
+
+Após a seleção, o sistema deve pedir para o usuário inserir o primeiro e segundo valor, um de cada. Depois precisa executar a operação e mostrar o resultado na tela. Quando o usuário escolher a opção “Sair”, o sistema irá parar.
+
+É necessário que o sistema mostre as opções sempre que finalizar uma operação e mostrar o resultad
+"""
+
+
+def addition(x, y):
+    return x + y
+
+def subtraction(x, y):
+    return x - y
+
+def multiplication(x, y):
+    return x * y
+
+def division(x, y):
+    return x // y
+
+
+print('**********Python Calculator**********')
+
+print("\nSelecione o número da opção desejada: \n")
+
+print("1 - Soma")
+print("2 - Subtração")
+print("3 - Multiplicação")
+print("4 - Divisão")
+print("0 - Sair")
+
+option = int(input("\nDigite sua opção (0/1/2/3/4): "))
+
+if option < 0 or option > 4:
+  print("\nOpção inválida!\n")
+  exit(0)
+
+
+
+while( option != 0 ):
+
+  num1 = int(input("\nDigite o primeiro número: "))
+  num2 = int(input("\nDigite o segundo número: "))
+
+
+  if option == 1:
+      print(num1, "+", num2, "=", addition(num1, num2))
+      
+
+  elif option == 2:
+      print(num1, "-", num2, "=", subtraction(num1, num2))
+
+  elif option == 3:
+      print(num1, "*", num2, "=", multiplication(num1, num2))
+
+  elif option == 4:
+      print(num1, "/", num2, "=", division(num1, num2))
+
+print("Você escolheu a opção Sair")

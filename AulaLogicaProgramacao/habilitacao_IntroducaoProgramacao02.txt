@@ -1,0 +1,15 @@
+rodas = 4
+pessoas = 10
+peso = 7000
+
+if rodas <= 3:
+     print("Categoria de habilitação A")
+else:
+     if (pessoas <= 8) and (peso <= 3500):
+          print("Categoria de habilitação B")
+     elif (rodas >= 4) and (peso <= 6000):
+          print("Categoria de habilitação C")
+     elif (rodas >= 4) and (pessoas > 8):
+          print("Categoria de habilitação D")
+     else (rodas >= 4) and (peso > 6000):
+          print("Categoria de habilitação E")

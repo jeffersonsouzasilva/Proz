@@ -17,6 +17,13 @@ header ul {
   gap: 2rem;
 }
 
+/* header ul, .post, #post02 {
+  display: flex;
+  gap: 2rem;
+  color: red;
+} */
+
+
 aside {
   float: right;
   border: 2px solid #212121;

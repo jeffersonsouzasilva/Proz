@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>Style e ClassList</title>
+</head>
+<body>
+  <main>
+    <section id="login">
+      <h2>Login</h2>
+      <form action="">
+        <label for="login-usuario">Nome de usuário:</label>
+        <input type="text" id="login-usuario" name="login-usuario">
+        <!-- <input type="text" id="login-usuario" name="login-usuario" class="error"> -->
+        <p class="error-text">*Usuário inválido</p>
+        <!-- <p class="error-text visible">*Usuário inválido</p> -->
+
+        <label for="login-senha">Senha:</label>
+        <input type="password" id="login-senha" name="login-senha">
+        <!-- <input type="password" id="login-senha" name="login-senha" class="correct"> -->
+        <p class="error-text">*Sennha incorreta</p>
+
+        <button type="button">Fazer login</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>

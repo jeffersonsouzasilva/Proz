@@ -69,6 +69,19 @@ button {
   background-color: #202020;
 }
 
+/* .required-popup::before {
+  content: "Outro texto";
+  //position: absolute;
+  top: 0;
+  right: 0;
+  color: #DFDFDF;
+  font-size: .65rem;
+  padding: .2rem .3rem;
+  width: auto;
+  display: block;
+  background-color: #202020;
+} */
+
 input.error {
   border: solid 2px #992020;
   background-color: #CCBBBB;

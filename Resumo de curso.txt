@@ -1,0 +1,43 @@
+Curso de Desenvolvimento Front-End com Cloud AWS:
+
+Neste curso, você aprenderá a utilizar as ferramentas e serviços oferecidos pela AWS (Amazon Web Services) para o desenvolvimento, implantação, teste, operação e monitoramento de aplicativos web e móveis. Com a prática, você será capaz de:
+
+Utilizar as ferramentas de desenvolvimento da AWS para o front-end, incluindo AWS Amplify, AWS AppSync, Amazon API Gateway, AWS Device Farm, AWS Location Service, Amazon Pinpoint e outros.
+Entender as diferenças entre GraphQL e REST, e escolher a abordagem adequada para o seu projeto.
+Integrar seu aplicativo com diferentes tipos de bancos de dados, tais como Amazon DynamoDB e Amazon Aurora Serverless, e conectar-se a bancos de dados existentes.
+Implementar suporte offline para o seu aplicativo usando Amplify DataStore.
+Testar seu aplicativo em diferentes dispositivos móveis e navegadores usando AWS Device Farm.
+Monitorar o desempenho e a saúde do seu aplicativo usando Amazon CloudWatch.
+Engajar os seus usuários com campanhas de marketing, mensagens transacionais e comunicações em massa usando Amazon Pinpoint.
+Adicionar funcionalidades de localização ao seu aplicativo usando AWS Location Service.
+Além disso, este curso fornecerá informações sobre como escolher os serviços da AWS que melhor atendem às suas necessidades, levando em consideração os diferentes estágios do ciclo de vida do aplicativo, tais como desenvolvimento, entrega, teste, monitoramento e engajamento com os usuários finais. Serão apresentadas melhores práticas e dicas para ajudá-lo a maximizar o potencial dos serviços da AWS em seus projetos de desenvolvimento front-end.
+
+
+
+
+
+
+
+"Curso de Desenvolvimento Front-End:
+
+Neste curso, você aprenderá a se tornar um Desenvolvedor Front-End profissional e capacitar-se-á a colocar em prática designs através de códigos para criar interfaces atraentes e funcionais em sites e aplicativos. Aprenderemos sobre:
+
+Introdução ao Desenvolvimento Front-End:
+Entenderemos a profissão de Desenvolvedor Front-End e sua importância no mercado de trabalho atual.
+Aprenderemos sobre as tarefas e responsabilidades de um Desenvolvedor Front-End.
+Fundamentos de HTML, CSS e JavaScript:
+Aprenderemos HTML, a linguagem de marcação que é a base para a construção de páginas na Internet.
+Estudaremos CSS, a linguagem de estilização que trabalha em conjunto com o HTML para dar forma e aparência às páginas.
+Nos familiarizaremos com JavaScript, a linguagem de programação que permite a criação de elementos dinâmicos e interativos em sites e aplicativos.
+Bibliotecas e Frameworks JavaScript:
+Exploraremos bibliotecas como React.js, que facilitam a criação de interfaces através de componentes reutilizáveis.
+Aprenderemos sobre diferentes frameworks JavaScript, como React, Vue.js, Angular e Svelte, que nos ajudam a criar páginas mais rápido com códigos prontos.
+Preprocessadores CSS:
+Estudaremos ferramentas como LESS, SASS e Stylus, que nos permitem escrever códigos em suas linguagens e converterem automaticamente em CSS escalável.
+RESTful APIs e integração com outras aplicações:
+Aprenderemos sobre a arquitetura REST e como criar integrações com outras aplicações por meio de APIs RESTful.
+Design responsivo e mobile-first:
+Compreenderemos a importância de design responsivo e a abordagem mobile-first para garantir que nossos sites e aplicativos sejam eficazes em diferentes tamanhos de tela e navegadores.
+Ferramentas de desenvolvimento:
+Conheceremos diferentes editores de código, como também ferramentas utilizadas por designers gráficos e UX/UI designers para criar e compreender protótipos de interface.
+Ao final do curso, você estará preparado para entrar no mercado de trabalho como um Desenvolvedor Front-End competente, possuindo as habilidades técnicas necessárias para criar interfaces atraentes e eficazes em diferentes dispositivos e plataformas."

@@ -1,0 +1,7 @@
+Uma empresa considera migrar suas cargas de trabalho para a nuvem da AWS, mas preocupa-se com a segurança dos dados sensíveis que serão armazenados na nuvem. Dessa forma, foi solicitada uma avaliação dos principais recursos de segurança oferecidos pela AWS para garantir a proteção de seus dados.
+
+Como consultor de segurança em nuvem, você é encarregado de fornecer uma análise dos recursos de segurança mais relevantes da AWS e explicar como eles podem ajudar a empresa a proteger seus dados sensíveis na nuvem. Você precisa destacar os recursos-chave e fornecer recomendações sobre as melhores práticas de segurança a serem seguidas ao migrar para a AWS.
+
+Enunciado: Com base em sua expertise em segurança em nuvem e nos recursos disponíveis na AWS, forneça uma análise dos principais recursos de segurança da AWS e explique como eles podem ser utilizados para proteger os dados sensíveis da empresa durante a migração para a nuvem.
+
+Orientação ao Aluno: Analise os principais recursos de segurança da AWS, como AWS Identity and Access Management (IAM), AWS Key Management Service (KMS), AWS Security Groups, AWS CloudTrail e AWS GuardDuty. Explique como cada um desses recursos pode ser utilizado para garantir a segurança dos dados sensíveis da empresa na nuvem. Além disso, forneça recomendações sobre as melhores práticas de segurança a serem seguidas durante a migração para a AWS, incluindo o uso de criptografia, monitoramento de segurança e controle de acesso.

@@ -1,0 +1,88 @@
+quero acrescentar load more usando Java Script e que ao clicar no load more ele mostre o clone dos 3 cartõesNoticia:   
+
+      <div class="noticiasRecentes">
+        <h3>Notícias mais recentes</h3>
+
+        <div class="cardsNoticias">
+          <div class="cardNoticia">
+            <img src="../../images/imgNoticias1.svg" alt="imgNoticias1" />
+            <div class="cardNoticiaTexto">
+              <div class="cardNoticiaData">
+                <p id="ArtigoVermelho">Proz Arts Inc.</p>
+                <p>09/02/2024</p>
+              </div>
+
+              <h4>PA SPORTS FC™ - Dia a dia no trabalho</h4>
+
+              <p id="cardNoticiaDescricao">
+                Saiba da equipe de desenvolvimento do PA SPORTS FC como é o
+                trabalho
+              </p>
+            </div>
+          </div>
+
+          <div class="cardNoticia">
+            <img src="../../images/imgNoticias2.svg" alt="imgNoticias2" />
+            <div class="cardNoticiaTexto">
+              <div class="cardNoticiaData">
+                <p id="ArtigoVermelho">Proz Arts Inc.</p>
+                <p>18/01/2024</p>
+              </div>
+
+              <h4>Desbloqueando oportunidades: um olhar sobre a vida na PA</h4>
+
+              <p id="cardNoticiaDescricao">
+                Kirk Chavarie, recrutador da Proz Arts, compartilha o que sabe
+                sobre os valores, cultura e oportunidades de desenvolvimento de
+                carreira na empresa
+              </p>
+            </div>
+          </div>
+
+          <div class="cardNoticia">
+            <img src="../../images/imgNoticias3.svg" alt="imgNoticias3" />
+            <div class="cardNoticiaTexto">
+              <div class="cardNoticiaData">
+                <p id="ArtigoVermelho">Frostbite</p>
+                <p>18/12/2023</p>
+              </div>
+
+              <h4>
+                Anunciamos uma nova aparência e visão para o engine Frostbite da
+                PA
+              </h4>
+
+              <p id="cardNoticiaDescricao">
+                O rebranding do Frostbite da Proz Arts em 2024 sinaliza uma nova
+                era mais colaborativa para seu engine de jogo moderno.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="carregar" id="load-more">
+          <!-- <img src="../../images/iconCarregar.svg" alt="iconCarregar" /> -->
+          <p>Carregar mais</p>
+        </div>
+      </div>
+
+    <script>
+      let loadMoreBtn = document.querySelector("#load-more");
+      let currentItem = 2;
+
+      loadMoreBtn.onclick = () => {
+        let boxes = [
+          ...document.querySelectorAll(
+            ".noticiasRecentes .cardsNoticias .cardNoticia"
+          ),
+        ];
+        for (var i = currentItem; i < currentItem + 3; i++) {
+          boxes[i].style.display = "inline-block";
+        }
+        currentItem += 3;
+
+        if (currentItem >= boxes.length) {
+          loadMoreBtn.style.display = "none";
+        }
+      };
+    </script>

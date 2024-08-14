@@ -1,0 +1,184 @@
+@import url("../../components/styles/global.css");
+@import url("../../components/styles/msgPopUp.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+main img {
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  filter: brightness(50%);
+
+}
+
+.formLogin {
+  position: absolute;
+  border-radius: 19px;
+  width: 40%;
+  z-index: 1;
+  background-color: var(--background-color-dois);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tituloLogin {
+  height: 60px;
+  width: 100%;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cabecalolhoLogin {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.corpoForm {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+main ul {
+  width: 100%;
+  list-style: none;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 40px 10px 40px;
+}
+
+main li {
+  display: flex;
+  flex-direction: column;
+}
+
+main input {
+  height: 30px;
+  padding: 8px;
+  font-size: 18px;
+}
+
+main label,
+main label {
+  width: 100%;
+}
+
+.CampolembrarUsuario {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#lembrar_usuario {
+  display: flex;
+  align-items: center;
+}
+
+#lembrar_usuario>label {
+  margin-left: 8px;
+}
+
+#botao_form {
+  width: 21%;
+}
+
+.enviar_forms {
+  height: 40px;
+  width: 100px;
+  margin-left: 10%;
+  background-color: var(--background-color-seis);
+  color: var(--font-color-dois);
+  border: none;
+}
+
+.intervaloLogin {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 6px;
+}
+
+.quebreLinhaLogin {
+  display: flex;
+  align-items: center;
+}
+
+hr {
+  width: 137px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.iconesLogin {
+  width: 100%;
+  padding: 13px;
+  padding-left: 10%;
+  padding-right: 8%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.iconesLogin a {
+  height: 30px;
+  width: 30px;
+}
+
+.buttonLogin {
+  height: 40px;
+  width: 120px;
+
+  margin-left: 10%;
+}
+
+.buttonLogin a {
+  color: black;
+  text-decoration: none;
+}
+
+
+.bg-erro {
+  background: #f12828 !important;
+  border: #f12828;
+}
+
+.erro {
+  margin: 5px;
+  color: rgb(255, 0, 0);
+  display: none;
+}
+
+.exibir {
+  display: block !important;
+
+}

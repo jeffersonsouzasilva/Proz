@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="../../components/funcoesGlobais.js"></script>
+  <script src="../../components/load/estilosExternos.js"></script>
+  <script src="../../components/load/componentsHTML.js"></script>
+  <script src="../../components/htmls/msgPopUp.js" defer></script>
+  <script src="script.js" defer></script>
+  <!--o defer faz o script carregar logo após todos os componentes do html tiverem sido criados-->
+  <link rel="stylesheet" href="style.css" />
+  <title>Login</title>
+</head>
+
+<body>
+  <header></header>
+  <main>
+    <form action="" class="formLogin">
+      <div class="tituloLogin">
+        <h2>LOGIN</h2>
+      </div>
+      <div class="corpoForm">
+        <ul>
+          <li>
+            <label for="email">Email:</label>
+            <input id="email" type="email" name="email" placeholder="ex: juliano.Per@gmail.com" />
+            <span class="erro" id="erroEmail"></span>
+            <!-- <p>Email incorreto</p> -->
+          </li>
+          <li>
+            <label for="senha">Senha:</label>
+            <input id="senha" type="password" name="senha" placeholder="*********" />
+            <span class="erro" id="erroSenha"></span>
+            <!-- <p>Senha incorreto</p> -->
+          </li>
+        </ul>
+
+        <div class="CampolembrarUsuario">
+          <div id="lembrar_usuario">
+            <input id="lembrar_usuario_check" type="checkbox" name="lembrar_usuario" />
+            <label for="lembrar_usuario">Lembrar meu nome de usuario</label>
+          </div>
+
+          <div id="botao_form">
+            <button class="enviar_forms" type="submit">ENTRAR</button>
+          </div>
+        </div>
+
+        <div class="intervaloLogin">
+          <div class="quebreLinhaLogin">
+            <hr />
+            <p>Ou inicie sessão com:</p>
+            <hr />
+          </div>
+
+          <div class="iconesLogin">
+            <a href="" class="fa-brands fa-square-facebook" style="color: #1e3fe6"></a>
+            <a href="" class="fa-brands fa-xbox" style="color: #117c03"></a>
+            <a href="" class="fa-brands fa-twitch" style="color: #5710c1"></a>
+            <a href="" class="fa-brands fa-playstation" style="color: #073688"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="cabecalolhoLogin">
+        <p>Não possui uma conta?</p>
+        <button class="buttonLogin" type="submit">
+          <a href="../cadastro/index.html">INSCREVA-SE</a></button>
+      </div>
+    </form>
+    <img src="../../images/ea_hero.png" alt="wallpaper_formulario" />
+  </main>
+  <footer></footer>
+</body>
+
+</html>

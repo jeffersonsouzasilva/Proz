@@ -1,0 +1,39 @@
+:root {
+  --color-correto: rgb(2, 105, 2);
+  --background-color-correto: rgb(91, 212, 91);
+  --color-errado: rgb(212, 7, 7);
+  --background-color-errado: rgb(240, 93, 93);
+  --color-branca: white;
+}
+
+form p {
+  display: none;
+  font-size: 12px;
+  color: red;
+  text-align: right;
+}
+
+.campo-correto {
+  border-color: var(--color-correto);
+  color: var(--color-branca);
+  background-color: var(--background-color-correto);
+}
+
+.msg-correto {
+  color: var(--color-correto);
+}
+
+.campo-errado {
+  border-color: var(--color-errado);
+  color: var(--color-branca);
+  font-weight: bolder;
+  background-color: var(--background-color-errado);
+}
+
+.msg-errado {
+  color: var(--color-errado);
+}
+
+.visivel {
+  display: block;
+}

@@ -1,0 +1,424 @@
+@import url("./pallete.css");
+
+/*estilos para todos os htmls*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+/*estilo do header e footer*/
+header {
+  background-color: var(--background-color-quatro);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-size: 1.5em;
+  width: 100%;
+}
+
+header h1{
+  margin-left: 60px;
+  width: 280px;
+}
+
+header nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 80%;
+}
+
+header ul{
+  list-style: none;
+  margin-left: 40px;
+
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+header a {
+  text-decoration: none;
+  color: var(--font-color-dois);
+}
+
+header button {
+  background-color: var(--background-color-seis);
+  color: var(--font-color-dois);
+
+  border: none;
+  margin-right: 40px;
+  padding: 10px;
+  width: 131px;
+}
+
+header #icon-menu-mobile{
+  display: none;
+  color: white;
+  font-size: 1.5em;
+  padding-right: 40px;
+}
+
+footer {
+  background-color: var(--background-color-quatro);
+  color: var(--font-color-tres);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 8em;
+  padding-top: 2em;
+  font-size: 1.2em;
+  width: 100%;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer h3 {
+  color: var(--font-color-quatro);
+  margin-bottom: 15px;
+}
+
+footer a {
+  color: var(--font-color-tres);
+  text-decoration: none;
+}
+
+footer #links-e-configs,
+footer #informacao {
+  display: flex;
+  width: 100%;
+}
+
+footer #links-e-configs {
+  border-bottom: 1px solid var(--font-color-cinco);
+  justify-content: space-between;
+  padding-bottom: 1em;
+  gap: 9%;
+}
+
+footer #site-contato{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+
+footer #informacao {
+  padding-top: 1em;
+}
+
+footer #links-e-configs #site-contato #site {
+  width: 50%;
+}
+
+footer #links-e-configs #site-contato #contato {
+  width: 50%;
+}
+
+footer #links-e-configs #idiomas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 30%;
+}
+
+footer #contato a {
+  color: var(--font-color-dois);
+}
+
+footer #links-e-configs aside ul {
+  display: flex;
+  gap: 30px;
+}
+
+footer #site ul {
+  justify-content: start;
+}
+
+footer #site h3 {
+  text-align: left;
+}
+
+footer #contato ul {
+  justify-content: end;
+}
+
+footer #contato h3 {
+  text-align: right;
+}
+
+footer #idiomas #caixa-de-idioma {
+  background-color: var(--background-color-cinco);
+
+  width: 75%;
+  max-width: 200px;
+  min-width: min-content;
+  padding: 10px;
+}
+
+footer #idiomas #caixa-de-idioma label {
+  color: var(--font-color-tres);
+  margin-bottom: 10px;
+  margin-left: 1em;
+}
+
+footer #idiomas #caixa-de-idioma div {
+  display: flex;
+  align-items: center;
+  margin-left: 1em;
+}
+
+footer #idiomas #caixa-de-idioma img {
+  max-width: 25px;
+}
+
+footer #idiomas #caixa-de-idioma select {
+  background-color: var(--background-color-cinco);
+  color: white;
+
+  border: none;
+
+  margin-left: 1em;
+  height: 2em;
+  width: 120px;
+}
+
+footer #informacao {
+  text-align: justify;
+}
+
+footer #informacao div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+footer #informacao #links {
+  justify-content: left;
+  align-items: baseline;
+}
+
+footer #informacao #links p {
+  width: 100%;
+  display: block;
+}
+
+footer #informacao #imgs {
+  justify-content: right;
+}
+
+footer #informacao #faixa-etaria {
+  max-width: max-content;
+  margin-left: 1.5em;
+}
+
+footer #informacao h1 {
+  background-color: red;
+  color: white;
+  padding: 10px;
+}
+
+/*responsividade*/
+/*foco no header*/
+@media(max-width:1093px){
+  header nav {
+    flex-direction: row-reverse;
+    width: 50%;
+  }
+
+  header ul{
+    display: none;
+  }
+
+  header button{
+    margin: 0;
+    margin-left: 40px;
+  }
+
+  header #icon-menu-mobile{
+    display: block;
+  }
+
+  header #opcoes-para-menu-mobile{
+    position: relative;
+  }
+
+  header #opcoes-para-menu-mobile:hover ul{
+    position: absolute;
+    right: 0;
+    z-index: 10;
+    background-color: var(--background-color-quatro);
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 20px 10px 10px 10px;
+  }
+}
+
+/*foco no footer*/
+@media(max-width:1443px){
+  footer #informacao{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  footer #informacao{
+    gap: 5px;
+  }
+
+  footer #informacao #imgs,
+  footer #informacao #links{
+    justify-content: space-around;
+  }
+
+  footer #informacao #links p{
+    width: max-content;
+  }
+
+  footer #informacao #imgs{
+    justify-content: space-evenly;
+    width: 100%;
+  }
+}
+
+@media (max-width:1293px){
+  footer #links-e-configs #site-contato{
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  footer #links-e-configs #site-contato ul,
+  footer #links-e-configs #site-contato h3{
+    justify-content: left;
+    text-align: left;
+  }
+
+  footer #links-e-configs #site-contato #contato,
+  footer #links-e-configs #site-contato #site{
+    width: 100%;
+    align-items: left;
+  }
+}
+
+@media (max-width:1000px){
+  footer{
+    padding: 5em;
+    padding-top: 2em;
+  }
+
+  footer #links-e-configs{
+    gap: 0px;
+  }
+  
+  footer #links-e-configs #site-contato{
+    width: min-content;
+  }
+  
+  footer #links-e-configs #idiomas{
+    width: min-content;
+  }
+}
+
+@media (max-width:800px){
+
+  footer{
+    padding: 1em;
+    padding-top: 2em;
+  }
+
+  footer #links-e-configs{
+    flex-direction: column;
+    gap: 10px;
+
+    position: relative;
+  }
+
+  footer #links-e-configs #site-contato{
+    width: 100%;
+  }
+
+  footer #links-e-configs #site ul{
+    width: 100%;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  footer #links-e-configs #idiomas{
+    position: absolute;
+    bottom: 17px;
+    right: 0;
+    height: max-content;
+    width: max-content;
+  }
+
+  footer #informacao{
+    position: relative;
+    gap: 10px;
+  }
+
+  footer #informacao img{
+    max-width: 100%;
+  }
+
+  footer #informacao #faixa-etaria{
+    position: absolute;
+    top: 30px;
+    right: 10px;
+  }
+
+  footer #informacao #links{
+    flex-direction: column;
+    gap: 20px;
+  }
+
+}
+
+/**footer e header para telas abaixo de 500px*/
+@media(max-width:600px){
+  header{
+    font-size: 0.8em;
+    height: max-content;
+  }
+
+  header h1{
+    margin-left: 20px;
+    width: 105px;
+  }
+
+  header nav{
+    width: 70%;
+  }
+
+  header button{
+    padding: 5px;
+    border-radius: 9px;
+  }
+}
+
+@media(max-width:400px){
+  header h1{
+    margin-left: 20px;
+    width: 75px;
+  }
+
+  header nav{
+    width: 75%;
+  }
+}

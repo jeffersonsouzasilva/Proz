@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="style.css">
+  <script src="./components/funcoesGlobais.js"></script>
+  <script src="./components/load/estilosExternos.js"></script>
+  <script src="./components/load/componentsHTML.js"></script>
+
+  <title>Inicio</title>
+</head>
+
+<body class="body">
+  <header></header>
+
+  <main class="main">
+    <section class="topo">
+      <div class="topo__banner" id="banner">
+        <video id="videoPlayer" style="display: none;">
+          <source src="https://cdn.akamai.steamstatic.com/steam/apps/256806061/movie_max_vp9.webm?t=1603387370"
+            type="video/mp4">
+          Seu navegador não suporta o elemento de vídeo.
+        </video>
+        <img id="bannerImage" src="./images/background_home_top.png" alt="Capa Battlefield" />
+      </div>
+      <div class="topo__logo">
+        <img src="./images/logo_battlefield_V.png" alt="Logo Battlefield" />
+      </div>
+      <p class="topo__titulo">
+        JOGUE BATTLEFIELD&trade; V AGORA PARA XBOX ONE, PLAYSTATION&reg; 4 E PC
+      </p>
+
+      <div class="topo__btn">
+        <button class="topo__btn__texto"
+          onclick="window.open('https://store.steampowered.com/app/1238810/Battlefield_V/', '_blank');">Explore</button>
+      </div>
+
+      <div class="topo__video">
+        <button id="verTrailerButton" class="topo__video__texto">
+          <i id="verTrailerButton" class="fas fa-play"></i>
+          Ver trailer
+        </button>
+      </div>
+    </section>
+
+    <section class="menu-container">
+      <div class="menu" id="jogosMenu">
+        <div class="opcao">
+          <div class="link__jogo">
+            <div class="jogo">Jogos</div>
+          </div>
+        </div>
+      </div>
+      <div class="menu1" id="dlcMenu">
+        <div class="opcao">
+          <div class="link__dlc">
+            <div class="dlc">DLC</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid-container" id="jogosContent">
+      <div class="image" onclick="window.open('https://store.steampowered.com/app/1938010/WILD_HEARTS/', '_blank');">
+        <img src="./images/wild_cover.png" alt="Capa Wild Hearts" />
+        <img src="./images/wild_logo.png" alt="Wild Logotipo" />
+      </div>
+
+      <div class="image" onclick="window.open('https://store.steampowered.com/app/1238810/Battlefield_V/', '_blank');">
+        <img src="./images/battle_cover.png" alt="Capa Battlefield" />
+        <img src="./images/battle_logo.png" alt="Battlefield Logotipo" />
+      </div>
+
+      <div class="image"
+        onclick="window.open('https://store.steampowered.com/app/2140610/The_Sims_4_Pacote_de_Expanso_Alugase/', '_blank');">
+        <img src="./images/sims_cover.png" alt="Capa The Sims" />
+        <img id="imagens" src="./images/sims_logo.svg" alt="The Sims Logotipo" />
+      </div>
+
+      <div class="image"
+        onclick="window.open('https://store.steampowered.com/app/1774580/STAR_WARS_Jedi_Survivor/', '_blank');">
+        <img src="./images/jedi_cover.png" alt="Capa Jedi Survivor" />
+        <img id="imagens" src="./images/jedi_logo.svg" alt="Jedi Survivor Logotipo" />
+      </div>
+
+      <div class="image"
+        onclick="window.open('https://store.steampowered.com/app/2009100/Immortals_of_Aveum/', '_blank');">
+        <img src="./images/immortals_cover.png" alt="Capa Immortals" />
+        <img id="imagens" src="./images/immortals_logo.svg" alt="Immortals Logotipo" />
+      </div>
+
+      <div class="image" onclick="window.open('https://store.steampowered.com/app/1693980/Dead_Space/', '_blank');">
+        <img src="./images/space_cover.png" alt="Capa Dead Space" />
+        <img id="imagens" src="./images/dead_logo.svg" alt="Dead Space Logotipo" />
+      </div>
+    </section>
+
+    <section class="grid-container" id="dlcContent" style="display: none;">
+      <section class="timeline">
+        <section class="timeline-top">
+          <div class="timeline-item">
+            <h2>ABERTURA</h2>
+            <p><strong>CAPÍTULO 1: A GUERRA ESTÁ CHEGANDO</strong></p>
+            <p>A história dramática O Último Tigre chega e a guerra se expande para o campo belga em um novo mapa focado
+              em tanques.</p>
+
+          </div>
+
+          <div class="timeline-item">
+            <h2>O RAIO CAI</h2>
+            <p><strong>CAPÍTULO 2: TEMA A MÁQUINA DE GUERRA ALEMÃ</strong></p>
+            <p>Encare a jogabilidade com veículos e o modo cooperativo de Armas Combinadas. O capítulo 2 traz também
+              modos clássicos como Investida e Conquista de Pelotão.</p>
+
+          </div>
+
+          <div class="timeline-item">
+            <h2>BATISMO DE FOGO</h2>
+            <p><strong>CAPÍTULO 3: ENFRENTE O CALOR</strong></p>
+            <p>Sobreviva a um círculo de fogo mortal à medida em que o battle royale chega ao Battlefield com Fogo
+              Cruzado – e junte-se à Batalha da Grécia em um novo mapa.</p>
+
+          </div>
+        </section>
+
+        <section class="timeline-bottom">
+          <div class="timeline-item">
+            <h2>VIRANDO O JOGO</h2>
+            <p><strong>CAPÍTULO 4: LUTE DE PERTO</strong></p>
+            <p>Lute de perto. A luta continua em vários novos mapas adaptados para combates de infantaria como Marita,
+              Provença e Lofoten.</p>
+
+          </div>
+
+          <div class="timeline-item">
+            <h2>GUERRA NO PACÍFICO</h2>
+            <p><strong>CAPÍTULO 5: PARTICIPE DE UMA INVASÃO PACÍFICO</strong></p>
+            <p>Invada os campos de batalha mais emblemáticos do teatro do Pacífico enquanto forças americanas e
+              japonesas entram na disputa.</p>
+
+          </div>
+
+          <div class="timeline-item">
+            <h2>NA SELVA</h2>
+            <p><strong>CAPÍTULO 6: SOBREVIVA À MATA</strong></p>
+            <p>Perigos e oportunidades estão por toda parte. Enfrente lutas a curta distância e terrenos traiçoeiros na
+              continuação de suas batalhas no Pacífico.</p>
+
+          </div>
+        </section>
+      </section>
+    </section>
+
+    <section class="newsletter" id="newsletterBanner">
+      <div class="container">
+        <div class="left">
+          <h1 class="titulo">
+            INSCREVA-SE PARA RECEBER AS NOTÍCIAS DE Proz Arts™
+          </h1>
+          <p class="texto">
+            Inscreva-se hoje mesmo e receba por e-mail as últimas notícias, vídeos,
+            ofertas e muito mais de Proz Arts (além de outras notícias, produtos,
+            eventos e promoções da PA).
+          </p>
+        </div>
+
+        <form class="right" id="newsletterForm">
+          <div class="input-container">
+            <input class="email" type="text" id="texto" name="texto" placeholder="email@email.com" required />
+            <label for="texto" class="label">E-mail:</label>
+          </div>
+          <div class="input-container inline">
+            <label for="dataNascimento" class="label">Data de Nascimento:</label>
+            <input class="nascimento" type="date" id="dataNascimento" name="dataNascimento" maxlength="8"
+              placeholder="DD MM AAAA" required />
+            <label for="primeiro" class="label" id="pais_label">País:</label>
+            <select class="pais" id="primeiro" required>
+              <option class="seleciona" value="">Selecione...</option>
+              <option class="seleciona" value="opcao1">Brasil</option>
+              <option class="seleciona" value="opcao2">Estados Unidos</option>
+              <option class="seleciona" value="opcao3">Inglaterra</option>
+            </select>
+          </div>
+
+          <p class="texto__checkbox">
+            <input class="checkbox" type="checkbox" id="concordouTermos" required />
+            <span>
+              <span class="termos">Posso cancelar a assinatura a qualquer momento ao alterar
+                minhas</span>
+              <span class="termos1">preferências de e-mail</span>
+              <span class="termos">, entrar em contato com </span>
+              <span class="termos1">privacyadmin.pa.com</span>
+            </span>
+          </p>
+          <div class="button">
+            <button class="texto__" type="submit">INSCREVER-SE</button>
+          </div>
+        </form>
+
+        <button id="closeButton" aria-label="Fechar" title="Fechar newsletter">X</button>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+  </main>
+
+  <footer></footer>
+  <script src="./components/htmls/msgPopUp.js"></script>
+  <script src="./script.js"></script>
+  <script src="./btn.js"></script>
+  <script src="./menu.js"></script>
+</body>
+
+</html>

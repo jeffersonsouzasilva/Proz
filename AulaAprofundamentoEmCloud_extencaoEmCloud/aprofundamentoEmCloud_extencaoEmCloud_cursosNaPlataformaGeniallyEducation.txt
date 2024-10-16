@@ -31,4 +31,13 @@ https://view.genially.com/668d5b9d50cc630014b54e0c/interactive-content-infografi
 Na Prática 3.5 Controle de Versão e Gerenciamento de Configuração para projetos de ML/Dev
 https://view.genially.com/669031370cece5779f551d99/presentation-na-pratica-35-controle-de-versao-e-gerenciamento-de-confi-guracao-par
 
+Infografia Lucro & Perda
+https://view.genially.com/668eb0ffd82326a69adb9b92/interactive-content-infografia-lucro-and-perda
+
+Na Prática 3.6 Serviços AWS para Machine Learning
+https://view.genially.com/669048d065f245c2c4695be5/presentation-na-pratica-36-servicos-aws-para-machine-learning
+
+Infográfico 3.7 Projetos de Desenvolvimento de Aplicações de Machine Learning
+https://view.genially.com/668ee62adadddaf7ed2e3fc8/interactive-image-infografico-37-projetos-de-desenvolvimento-de-aplicacoes-de-machine-l
+
 

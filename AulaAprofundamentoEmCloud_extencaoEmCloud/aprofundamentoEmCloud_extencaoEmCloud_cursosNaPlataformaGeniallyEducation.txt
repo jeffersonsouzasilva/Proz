@@ -19,4 +19,16 @@ https://view.genially.com/66950917ba098d227c62321a/presentation-na-pratica-uso-d
 Bootcamp de IA Generativa da AWS
 https://view.genially.com/66413c8eba8c080014801b4f/presentation-bootcamp-ia-generativa
 
+Infografia Plano Estratégico
+https://view.genially.com/668c3a974904770014b3abe5/interactive-content-infografia-plano-estrategico
+
+Na Prática 3.4 Implementação de Modelos de Machine Learning em Ambient
+https://view.genially.com/669012cb65f245c2c4417c66/interactive-content-na-pratica-34-implementacao-de-modelos-de-machine-learning-em-ambient
+
+Infografia Neurociência
+https://view.genially.com/668d5b9d50cc630014b54e0c/interactive-content-infografia-neurociencia
+
+Na Prática 3.5 Controle de Versão e Gerenciamento de Configuração para projetos de ML/Dev
+https://view.genially.com/669031370cece5779f551d99/presentation-na-pratica-35-controle-de-versao-e-gerenciamento-de-confi-guracao-par
+
 
